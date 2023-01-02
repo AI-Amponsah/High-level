@@ -17,4 +17,10 @@ print("Full name is " + full_name)
 
 print("Python")
 print("\tPython")
-print("Apples\nOranges\nMangoes")
+print("Apples\n\tOranges\n\tMangoes")
+
+#stripping white spaces using the rstrip()/ lstrip() and strip() method
+
+bag = "'hello '"
+bag = bag.strip()
+print(bag)

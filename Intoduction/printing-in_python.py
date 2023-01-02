@@ -18,3 +18,10 @@ message = '"What one fool can understand, another can."'
 
 print(famous_name + " " + "Once said," + '"What one fool can understand, another can."\n')
 print(famous_name + " " "Once said," + message)
+
+#stripping
+
+name = "  Yaw   "
+
+name = name.strip()
+print(name)

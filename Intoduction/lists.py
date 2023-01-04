@@ -24,3 +24,11 @@ print(names[-2])
 message = "Hello" + " " + names[1].title() + "," + "" + "Congrats!"
 print(message)
 
+#changing, adding and removing elements in a list
+#To modify an element in a list, use the name of the list as well as the index and set
+#it to the new value
+
+transport = ['car', 'train', 'plane']
+print(transport)
+transport[1] = 'ship'
+print(transport)

@@ -13,7 +13,8 @@ age = eval(input("Enter your age: " ))
 if age == 5:
     print("Kindergarten")
 elif (age>= 6) and (age<= 17):
-    print("From grades 1 to 12.")
+    grade = age - 5
+    print("Go to grade {}.".format(grade))
 elif age > 17:
     print("College")
 else:

@@ -40,4 +40,18 @@ print(my_dict)
  ''' i.e if "Name" in my_dict
       print("Name")
  '''
+ # Since one of the properties of python dictionaries is changeability, we can make changes to our dictionary
+ # A specific item's value can be changed by referring to its key
+ '''i.e my_dict["Age"] = 56 
+    or
+    Using the update() method
+    i.e my_dict.update({"Age": 56}) NB: Take note of the curly braces inside the method
+ '''
+ #  ADDING ITEMS TO A DICTIONARY
+ # Items can be added to a dictionary using a new index key and assigning it to a value
+ ''' i.e my_dict["Color"] = "Red" 
+            print(my_dict)
+    Another approach is to use the update() method, if the item is not in the dictionary, it will be added
+    i.e  my_dict.update({"Color: "Red"})
+ '''
  

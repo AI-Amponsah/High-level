@@ -53,5 +53,41 @@ print(my_dict)
             print(my_dict)
     Another approach is to use the update() method, if the item is not in the dictionary, it will be added
     i.e  my_dict.update({"Color: "Red"})
+            print(my_dict)
  '''
+ #  REMOVING ITEMS FROM A DICTIONARY
+ # The pop() method removes the item by specifing the key
+ '''
+ i.e my_dict.pop("Name")
+    print(my_dict)
+Also, the popitem() method removes the last inserted item
+
+ '''
+# The del keyword deletes or removes the dictionary completely.
+# The clear keyword empties the dictionary
  
+# when looping through a dictionary, we return the keys of the dictionary
+# To return the values, we use the values() method and key() method to return keys only
+# the items() method is used to return both keys and values
+# To make a copy of a dictionary, we use the dict() command or copy() command
+
+#NESTED DICTIONARIES
+#Nested dictionaries is a dictionary that contains other dictionaries
+'''
+
+Family = {
+    Dad = {
+        "Name": "Isaac"
+        "Age" : 44
+    }
+    Mum = {
+         "Name": "Selorm"
+        "Age" : 42 
+    }
+    Child = {
+         "Name": "Eleanor"
+        "Age" : 6
+    }
+}
+'''
+# Another method is to create separated dicitonaries and later nest them

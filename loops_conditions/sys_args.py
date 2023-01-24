@@ -11,6 +11,7 @@ def print_argv(argv):
         
         while i <= num:
             print("{:d}: {:s} argument.".format(i, argv[i]))
+             i = i + 1
 
 if __name__ == "__main__":
     import sys

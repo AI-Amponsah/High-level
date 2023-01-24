@@ -74,7 +74,6 @@ Also, the popitem() method removes the last inserted item
 #NESTED DICTIONARIES
 #Nested dictionaries is a dictionary that contains other dictionaries
 '''
-
 Family = {
     Dad = {
         "Name": "Isaac"
